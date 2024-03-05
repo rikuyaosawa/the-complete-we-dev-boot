@@ -1,0 +1,4 @@
+EJS (Embedded JavaScript)
+- allows you to generate dynamic HTML content 
+by embedding JavaScript code within your HTML templates.
+

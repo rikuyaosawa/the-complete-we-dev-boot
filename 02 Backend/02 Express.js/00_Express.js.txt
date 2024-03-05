@@ -1,0 +1,12 @@
+URL: https://expressjs.com/
+
+Express.js is a JavaScript framework that allows us to create backend
+for our websites.
+
+Express.js * Node.js = website backend
+
+Middleware (has access to req and res) types
+  - Pre-procesing ... such as body-parser
+  - Auth
+  - Error
+  - Logging ... such as morgan

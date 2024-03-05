@@ -1,0 +1,9 @@
+API (Application Programming interface) 
+  - a set of rules that define how diferent software can interact with each other.
+
+https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/38912006#content
+
+
+Json (JavaScript Object Notation)
+  - a way to format data that can be sent over the internet in a readable but also efficient way
+  

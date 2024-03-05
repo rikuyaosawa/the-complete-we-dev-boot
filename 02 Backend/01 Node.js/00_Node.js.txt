@@ -1,0 +1,11 @@
+Node.js Documentation: https://nodejs.org/docs/latest/api/
+
+*****
+Node.js is a runtime environment. 
+It allows Javascript to run on the computer.
+*****
+
+To run a Javascript file with Node.js;
+  "node yourfile.js" in the terminal
+
+NPM: https://www.npmjs.com/
