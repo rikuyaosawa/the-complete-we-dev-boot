@@ -1,4 +1,4 @@
-API (Application Programming interface) 
+API (Application Programming interface)
   - a set of rules that define how diferent software can interact with each other.
 
 https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/38912006#content
@@ -6,4 +6,20 @@ https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture
 
 Json (JavaScript Object Notation)
   - a way to format data that can be sent over the internet in a readable but also efficient way
-  
+
+
+Axios URL: https://axios-http.com/docs/intro
+
+- [] menas optional
+
+axios.request(config)
+axios.get(url[, config])
+axios.delete(url[, config])
+axios.head(url[, config])
+axios.options(url[, config])
+axios.post(url[, data[, config]])
+axios.put(url[, data[, config]])
+axios.patch(url[, data[, config]])
+axios.postForm(url[, data[, config]])
+axios.putForm(url[, data[, config]])
+axios.patchForm(url[, data[, config]])
