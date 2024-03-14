@@ -1,2 +1,4 @@
 Postgres URL: https://www.postgresql.org/docs/current/datatype.html
 
+On Functions: https://www.postgresql.org/docs/9.0/xfunc-sql.html
+
