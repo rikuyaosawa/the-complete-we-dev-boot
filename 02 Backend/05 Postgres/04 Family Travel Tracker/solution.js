@@ -26,7 +26,10 @@ let users = [
 
 async function checkVisisted() {
   const result = await db.query(
-    "SELECT country_code FROM visited_countries JOIN users ON users.id = user_id WHERE user_id = $1; ",
+    "SELECT country_code \
+    FROM visited_countries \
+    JOIN users ON users.id = user_id \
+    WHERE user_id = $1; ",
     [currentUserId]
   );
   let countries = [];
@@ -58,7 +61,9 @@ app.post("/add", async (req, res) => {
 
   try {
     const result = await db.query(
-      "SELECT country_code FROM countries WHERE LOWER(country_name) LIKE '%' || $1 || '%';",
+      "SELECT country_code \
+      FROM countries \
+      WHERE LOWER(country_name) LIKE '%' || $1 || '%';",
       [input.toLowerCase()]
     );
 
@@ -66,7 +71,8 @@ app.post("/add", async (req, res) => {
     const countryCode = data.country_code;
     try {
       await db.query(
-        "INSERT INTO visited_countries (country_code, user_id) VALUES ($1, $2)",
+        "INSERT INTO visited_countries (country_code, user_id) \
+        VALUES ($1, $2)",
         [countryCode, currentUserId]
       );
       res.redirect("/");
