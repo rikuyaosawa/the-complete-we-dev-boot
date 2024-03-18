@@ -1,0 +1,35 @@
+ - JSX - Markup inside JavaScript
+ 	is a syntax extension for JavaScript that lets you write
+	HTML-like markup inside a JavaScript file.
+	Although there are other ways to write components,
+	most React developers prefer the conciseness of JSX, and most codebases use it.
+
+React starter template with JSX
+
+	import React from "react";
+	import ReactDOM from "react-dom";
+
+	ReactDOM.render(
+	<div>
+
+	</div>,
+	document.getElementById("root")
+	);
+
+
+Rules
+ - HTML elemts (such as className) must be camel-cased.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
